@@ -1,0 +1,32 @@
+{
+  "name": "asyncawait",
+  "version": "1.0.0",
+  "description": "async-await functionnal module",
+  "main": "testasyncawait.js",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "chalk": "^1.1.3",
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euqip/TestAsyncAwait.git"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "nodejs"
+  ],
+  "author": "euqip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/euqip/TestAsyncAwait/issues"
+  },
+  "homepage": "https://github.com/euqip/TestAsyncAwait#readme"
+}
