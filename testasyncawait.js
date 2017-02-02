@@ -2,17 +2,17 @@
 import fs from 'fs'
 let chalk = require('chalk')
 
-async function readfilepromise(filename){
+async function readfilepromise (filename) {
   // readFile is a Promise, that returns the file content
   return readFile(filename)
 }
 
-async function Something(txt){
+async function Something (txt) {
   // reverse the string
-  let rev = txt.split("").reverse().join("")
+  let rev = txt.split('').reverse().join('')
   return rev
 }
-async function SomethingElse(){
+async function SomethingElse () {
   let array = ['a', 'b', 'c', 'd']
   return array
 }
@@ -29,7 +29,6 @@ async function mainstream () {
   await SomethingElse()
 }
 
-
 function readFile (filename) {
   return new Promise(
     function (resolve, reject) {
@@ -43,3 +42,13 @@ function readFile (filename) {
         })
     })
 }
+
+/*
+// the way to asynchroniously execute a sequence (non blmcking loop)
+// example
+let docs = [{}, {}, {}];
+
+for (let doc of docs) {
+  await db.post(doc);
+}
+*/
